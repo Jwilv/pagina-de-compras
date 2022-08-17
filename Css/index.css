@@ -1,0 +1,26 @@
+h1{
+display: block;
+color: #ffffff;
+background-color: rgb(209, 8, 8);
+padding-inline-end: auto;
+margin-top: auto;
+margin-bottom: auto;
+}
+.fondo{
+    height: 500px;
+    width: auto;
+    background-color: #000;
+}
+.cafe{
+   height: 200px;
+   position: absolute;
+   margin-top: 100px;
+   margin-left: 50px;
+}
+.productos{
+    height: 250px;
+    width: 225px;
+    background-color: chartreuse;
+   margin: auto;
+   margin-top: 50px;
+}

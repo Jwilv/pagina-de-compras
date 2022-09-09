@@ -1,32 +1,80 @@
-.contedor{
-    width: 100%;
-    height: auto;
-    max-width: 1000px;
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*///////////////////////////// header  ////////////////////////////////////////////////////*/
+.barra-navegacion{
+    height: 100%;
+    width: auto;
+    margin: none;
+    background-color: #000;
 }
 
 .pag-name{
-display: block;
-color: #ffffff;
-background-color: rgb(209, 8, 8);
-padding-inline-end: auto;
-margin-top: auto;
-margin-bottom: auto;
+background-color: #000;
+color: #fff;
+display: inline-block;
+gap: 0;
+margin: 0px;
+padding-left: 7px;
+}
+.contenedor-navegador{
+    /*display: inline-block;*/
+    float: right;
+    margin: 15px;
+    font-size: 14px;
+}
+.navegador{
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 15px;
+    padding-left: 15px;
+}
+/*///////////////////////////// presentacion  ////////////////////////////////////////////////////*/
+.presentacion-titulo{
+color: #fff;
+margin: 0px;
+display: inline-block;
+text-align: center;
+width: 100%;
 }
 .fondo{
-    height: 50%;
-    width: auto;
+   width: 100%;
+   height: 400px;
     background-color: #000;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }
-.cafe{
-   height: 200px;
-   position: absolute;
-   margin-top: 100px;
-   margin-left: 50px;
+.contenedor-cafe{
+width: 30%;
+display:inline-block;
+position: relative;
+gap: 5px;
+
 }
+.elemento-cafe{
+    width:  100%;
+
+}
+/*///////////////////////////// carucel  ////////////////////////////////////////////////////*/
+
+/*///////////////////////////// productos  ////////////////////////////////////////////////////*/
+.contenedor-productos{
+display: grid;
+margin: 3rem;
+grid-auto-rows: 22rem;
+grid-template-columns: repeat(auto-fill,minmax(15rem,1fr));
+justify-items: center;
+}
+
 .productos{
-    height: 250px;
+    margin: 15px,50px;
+    height: 300px;
     width: 225px;
     background-color: chartreuse;
-   margin: auto;
-   margin-top: 50px;
 }
+
+/*///////////////////////////// footer  ////////////////////////////////////////////////////*/
